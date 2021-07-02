@@ -1,0 +1,29 @@
+
+#Titulo {
+    float: left;
+    color: white;
+}
+
+#Logo {
+    width: 10em;
+    float: left;
+}
+#Logo2 {
+    width: 6em;
+}
+body{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ),url(../Images/Fon.jpg) no-repeat center center fixed;
+    background-size: cover;
+    opacity: 1;
+}
+#Video{
+    width:560;
+    height: 315;
+}
+
+
+
+

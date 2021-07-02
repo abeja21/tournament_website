@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+  <link href="css/Registrar.css" type="text/css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./Images/Logo.png" sizes="18x18">
+
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<div id="wrapper">
+    <form action="/user/add" method="POST"  >
+
+      <figure>
+        <img src="Images/Logo.png" id="Logo" alt="Logo de LBC">
+      </figure>
+          <div class="form-group">
+            <input class="form-control" type="text" id="firstname"  name="name" placeholder="Nombre de usuario" required>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="password" id="lastname" name="password" placeholder="Contraseña" required>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="email" id="email"name="email" placeholder="Correo Electronico" required>
+          </div>
+        <div class="form-group">
+            <input class="form-control" type="date" id="Edad" name="date" placeholder="Fecha de Nacimiento"required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" id="Pais"  name="paistext" placeholder="Pais" required>
+        </div>
+          <div class="form-group">
+              <button class="Enviar" type="submit" onclick="validateRegister()">Resgistrarse</button>
+          </div>
+        <div class="form-group">
+            <button class="Cancelar" type="submit"><a href="index.html">Cancelar</a></button>
+        </div>
+
+    </form>
+  </div>
+<script src="">
+</script>
+</body>
+</html>

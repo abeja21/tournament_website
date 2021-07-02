@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jugadores</title>
+    <link href="./css/Jugadores.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/Logo.png" sizes="18x18">
+</head>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<body>
+
+    <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="Jugadores.html">
+                    <i class="fa fa-2x"></i>
+                    <span class="nav-text">Modificar Privilegios</span>
+                </a>
+            </li>
+    
+    
+            <li class="has-subnav">
+                <a href="Traspasos.html">
+                    <i class="fa fa-2x"></i>
+                    <span class="nav-text">Traspasos</span>
+                </a>
+            </li>
+
+            <li class="has-subnav">
+                <a href="EntrarEquipo.html">
+                    <i class="fa fa-2x"></i>
+                    <span class="nav-text">Entrar en un Equipo</span>
+                </a>
+            </li>
+            
+            <li class="has-subnav">
+                <a href="Admin.html">
+                  <i class="fa fa-2x"></i>
+                  <span class="nav-text">Volver</span>
+                </a>
+              </li>
+        </ul>
+    </nav>
+
+<section>
+
+
+    <!-- TABLE CONSTRUCTION-->
+    <table id='table'>
+      <!-- HEADING FORMATION -->
+      <tr>
+        <th>NickName</th>
+        <th>Correo</th>
+        <th>Equipo</th>
+        <th>Rango</th>
+
+     </tr>
+            
+
+     
+      <script src="js/Jugadores.js">
+      </script>
+  </section>
+
+  <div id="wrapper">
+    <form action="../user/updatepriv" method="POST">
+
+        <figure>
+            <img src="./Images/Logo.png" id="Logo" alt="Logo de LBC">
+            <figcaption>Cambiar rango de Privilegios</figcaption>
+        </figure>
+        <div class="form-group">
+            <input class="form-control" type="text" name= "Name" placeholder="NickName" required>
+        </div>
+        <div class="form-group">
+            <select class="form-control" type="text" name= "Rango" placeholder="Rango">
+                <option value="1">Administrador</option>
+                <option value="2">Usuario</option>
+                <option value="3">Equipo</option>
+                <option value="4">Jugador</option>
+            </select>
+        <div class="form-group">
+            <button class="Enviar"  type="submit">Aceptar Cambios</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>

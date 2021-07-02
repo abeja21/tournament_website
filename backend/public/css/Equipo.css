@@ -1,0 +1,80 @@
+#Titulo {
+    float: left;
+    padding-top: 1em;
+    color: white;
+}
+
+#Logo {
+    width: 10em;
+    float: left;
+
+}
+body{
+    background-color: white;
+    background:url(../Images/Fondo_Equipo.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+
+
+
+}
+
+
+
+ table {
+     margin: 10em 14em;
+     font-size: 20px;
+
+     border-collapse: collapse;
+     background: linear-gradient(
+             rgba(255, 255, 255, 0.3),
+             rgba(0, 0, 0, 0.3)
+     )   no-repeat center center fixed;
+     border-radius: 20px;
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+
+
+td {
+    border: none;
+    padding: 2em;
+}
+
+th, td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    padding: 1.6em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+td {
+    font-weight: lighter;
+}
+tr:hover{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    )   no-repeat center center fixed;
+}
+
+
+#Perfil{
+    width: 2em;
+    padding-bottom: 0.2em;
+}
+
+
+
+#Trash{
+    width: 2em;
+    float: right;
+    display: block;
+    margin-right: 0.2em;
+}
+

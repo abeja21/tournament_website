@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Realizar traspasos</title>
+    <link href="./css/Jugadores.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/Logo.png" sizes="18x18">
+</head>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<body>
+
+<nav class="main-menu">
+    <ul>
+        <li>
+            <a href="Jugadores.html">
+                <i class="fa fa-2x"></i>
+                <span class="nav-text">Modificar Privilegios</span>
+            </a>
+        </li>
+
+
+        <li class="has-subnav">
+            <a href="Traspasos.html">
+                <i class="fa fa-2x"></i>
+                <span class="nav-text">Traspasos</span>
+            </a>
+        </li>
+        <li class="has-subnav">
+            <a href="EntrarEquipo.html">
+                <i class="fa fa-2x"></i>
+                <span class="nav-text">Entrar en un Equipo</span>
+            </a>
+        </li>
+        <li class="has-subnav">
+            <a href="Admin.html">
+              <i class="fa fa-2x"></i>
+              <span class="nav-text">Volver</span>
+            </a>
+          </li>
+    </ul>
+</nav>
+
+<section>
+
+
+    <!-- TABLE CONSTRUCTION-->
+    <table id='table'>
+      <!-- HEADING FORMATION -->
+      <tr>
+        <th>Nickname</th>
+        <th>Nombre Equipo</th>
+        <th>Rango</th>
+  
+      </tr>
+      <script src="js/Traspasos.js">
+      </script>
+  
+  </section>
+  
+  <div id="wrapper">
+    <form action="/traspasos/update" method="POST">
+  
+        <figure>
+            <img src="./Images/Logo.png" id="Logo" alt="Logo de LBC">
+            <figcaption>Cambiar jugador de equipo</figcaption>
+        </figure>
+        <div class="form-group">
+          <input class="form-control" type="text" name= "Nickname" placeholder="Nickname">
+      </div>
+        <div class="form-group">
+            <input class="form-control" type="text" name= "equipo" placeholder="Nombre del Equipo">
+        </div>
+        <div class="form-group">
+           <button class="Enviar" type="submit" >Realizar Traspaso</button>
+        </div>
+  
+    </form>
+  </div>
+<script>
+</script>
+</body>
+</html>
