@@ -22,6 +22,6 @@ MySQL
 
 ## Autores ✒️
 
-Antonio Castillo - Backend
+Antonio Castillo - Backend https://github.com/Antoniooo266
 Angel Beltran - Backend
-Sergio Lorente - Frontend
+Sergio Lorente - Frontend https://github.com/slorente515
